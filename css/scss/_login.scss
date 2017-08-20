@@ -6,7 +6,7 @@
   .login
   {
     grid-column: 6 / span 3;
-    grid-row: 2 /span 5;
+    grid-row: 2 ;
     img
     {
     width: 60px;
@@ -33,6 +33,17 @@
       border-radius:5px;
       box-shadow: 0 2px 1px rgba(0,0,0,.7);
       padding:15px;
+
+      .names fieldset:first-child
+      {
+        float: left;
+        padding-right: 10%;
+      }
+      .names fieldset
+      {
+        width: 45%;
+      }
+
       label
       {
         color:#000;

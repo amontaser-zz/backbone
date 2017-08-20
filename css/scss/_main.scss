@@ -6,16 +6,14 @@ html,body
 }
 body {
   background-color:#fff;
-  font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-family:"Open Sans",Helvetica,Arial,sans-serif;
 }
 .wrapper{
-  height:100%;
   display: grid;
   grid-template-columns: repeat(13,1fr);
   .main-sidebar
   {
     grid-column:1 /span 2;
-    height:100vh;
     position:static;
     background-color:$base-color;
     box-shadow:inset -4px 0px 1px rgba(0,0,0,0.1);
@@ -85,8 +83,9 @@ body {
     display:grid;
     grid-template-columns:repeat(13, 1fr); ;
     grid-template-rows: 60px 1fr auto;
-    min-height: 100%;
+     min-height:100vh;
     grid-column: 1 /sapn 13;
+
   }
   .main-body
   {
@@ -173,10 +172,7 @@ body {
 footer
     {
       grid-column:1/span 13;
-      grid-row-start: 3;
-      grid-row-end: 4;
-      height:40px;
-      margin-top: 20px;
+      grid-row: 3;
       span
       {
         width: 100%;
