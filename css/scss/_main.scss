@@ -15,7 +15,7 @@ body {
   {
     grid-column:1 /span 2;
     position:static;
-    background-color:$base-color;
+    background-color:$navy;
     box-shadow:inset -4px 0px 1px rgba(0,0,0,0.1);
     i
     {
@@ -61,7 +61,8 @@ body {
         {
           text-decoration:none;
           display:block;
-          padding:10px 15px;
+          padding:15px 20px;
+          font-size:.9em;
           color:rgba($dark-white,.7);
 
         }
@@ -73,7 +74,9 @@ body {
         a.active
         {
           color:$dark-white;
-          background-color:$navy;
+          background-color:rgba($dark-white,.3);
+          border-left: 5px solid $blue;
+          padding-left:15px;
         }
       }
     }
@@ -93,7 +96,10 @@ body {
     background-color: #fff;
     .body-inner
     {
-
+      p
+      {
+        line-height: 1.5;
+      }
       .page-header
       {
         background:linear-gradient(to left top , rgba($dark-white,.5) , $dark-white);
@@ -126,7 +132,7 @@ body {
       {
         grid-column:3 /span 9;
         grid-row:2;
-        margin-top:20px;
+        margin-top:60px;
 
         h1
         {

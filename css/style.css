@@ -48,7 +48,7 @@ body {
   .wrapper .main-sidebar {
     grid-column: 1 /span 2;
     position: static;
-    background-color: #e74c3c;
+    background-color: #2c3e50;
     box-shadow: inset -4px 0px 1px rgba(0, 0, 0, 0.1); }
     .wrapper .main-sidebar i {
       position: absolute;
@@ -75,14 +75,17 @@ body {
       .wrapper nav .summary li a {
         text-decoration: none;
         display: block;
-        padding: 10px 15px;
+        padding: 15px 20px;
+        font-size: .9em;
         color: rgba(236, 240, 241, 0.7); }
       .wrapper nav .summary li a:hover {
         color: #ecf0f1;
         background-color: #2980b9; }
       .wrapper nav .summary li a.active {
         color: #ecf0f1;
-        background-color: #2c3e50; }
+        background-color: rgba(236, 240, 241, 0.3);
+        border-left: 5px solid #3498db;
+        padding-left: 15px; }
   .wrapper .body-inner {
     display: grid;
     grid-template-columns: repeat(13, 1fr);
@@ -92,6 +95,8 @@ body {
   .wrapper .main-body {
     grid-column: 3 / span 11;
     background-color: #fff; }
+    .wrapper .main-body .body-inner p {
+      line-height: 1.5; }
     .wrapper .main-body .body-inner .page-header {
       background: linear-gradient(to left top, rgba(236, 240, 241, 0.5), #ecf0f1);
       grid-column: 1 /span 13;
@@ -114,7 +119,7 @@ body {
     .wrapper .main-body .body-inner .page-body {
       grid-column: 3 /span 9;
       grid-row: 2;
-      margin-top: 20px; }
+      margin-top: 60px; }
       .wrapper .main-body .body-inner .page-body h1 {
         font-size: 2em;
         color: #333;
