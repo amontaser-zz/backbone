@@ -12,7 +12,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Backbone</title>
-
+    <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="css/style.css?v=<?=time();?>">
 </head>
 <body>
@@ -36,7 +36,18 @@
             <div class="body-inner">
                 <div class="page-header role="navigation">
                     <a href="#" class="btn pull-left"><i class="fa fa-align-justify"></i></a>
-                    <h1>Backbone</h1>
+                    <div class="user-menu pull-right">
+
+                        <a href="#" class="user-notify "><i class="fa fa-flag"></i>
+                            <span>5</span>
+                        </a>
+                        <a href="#" class="user-info">
+                            <span class="user-info-avatar "><img src="img/avatar/admin.jpg" alt="user avatar" width="21" height="21" ></span>
+                            <span class="user-info-text">John Doe</span>
+                            <span><i class="fa fa-caret-down "></i></span>
+                        </a>
+                    </div>
+                    <div class="title"><h1>Backbone</h1></div>
                 </div>
                 <div class="page-body">
                     <h1>This is Headar</h1>
