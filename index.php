@@ -18,9 +18,11 @@
 <body>
     <div class="wrapper">
         <div class="main-sidebar">
-            <div id="main-search-input" role="search">
-                <i class="fa fa-search"></i>
-                <input type="text" placeholder="Type to search"></input>
+            <div class="logo">
+                <div class="container">
+                <img src="img/Backbone.svg" alt="Fish Backbone">
+                <span>BACKBONE</span>
+                </div>
             </div>
             <nav role="navigation">
                 <ul class="summary">
@@ -35,9 +37,17 @@
         <div class="main-body">
             <div class="body-inner">
                 <div class="page-header role="navigation">
-                    <a href="#" class="btn pull-left"><i class="fa fa-align-justify"></i></a>
-                    <div class="user-menu pull-right">
+                <div class="header-left-section pull-left">
 
+                    <a href="#" class="menu"><i class="fa fa-align-justify"></i></a>
+
+                    <div class="main-search-input" role="search">
+                         <a href="#" class=""><i class="fa fa-search"></i></a>
+                        <input type="text" placeholder="Type to search"></input>
+                    </div>
+
+                </div>
+                    <div class="user-menu pull-right">
                         <a href="#" class="user-notify "><i class="fa fa-flag"></i>
                             <span>5</span>
                         </a>
